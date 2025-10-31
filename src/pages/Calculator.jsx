@@ -3,9 +3,9 @@ import { useState } from 'react';
 import { Button, Form, Row,Col } from "react-bootstrap";
 
 function Calculator() {
-    const [num1, setNum1] = useState(0);
-    const [num2, setNum2] = useState(0);
-    const [result, setResult] = useState(0);
+    const [num1, setNum1] = useState("");
+    const [num2, setNum2] = useState("");
+    const [result, setResult] = useState("");
 
     const calculate = (operator) => {
         const a = parseFloat(num1);
