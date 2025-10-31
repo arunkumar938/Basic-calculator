@@ -1,7 +1,4 @@
 import React from 'react'
-import { IoLogoWhatsapp } from "react-icons/io";
-import { RiInstagramFill } from "react-icons/ri";
-import { FaFacebook } from "react-icons/fa";
 
 function Footer() {
   return (
@@ -10,7 +7,6 @@ function Footer() {
   <div className="container">
     <div className="row text-center text-md-start">
       
-      {/* About Section */}
       <div className="col-md-6 mb-3">
         <h5 className="text-uppercase">About</h5>
         <p>
@@ -18,18 +14,16 @@ function Footer() {
         </p>
       </div>
 
-      {/* Contact Section */}
       <div className="col-md-6 mb-3">
         <h5 className="text-uppercase">Contact</h5>
-        <p>Email: info@reactcalc.com</p>
-        <p>Phone: +1 (555) 123-4567</p>
+        <p>Email: basics@gmail.com</p>
+        <p>Phone: 123456789</p>
       </div>
 
     </div>
 
     <hr className="border-secondary" />
 
-    {/* Bottom Text */}
   </div>
 </footer>
 

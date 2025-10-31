@@ -4,6 +4,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import { AiTwotoneCalculator } from "react-icons/ai";
+import { Link } from 'react-router-dom';
 
 function Header() {
   return (
@@ -15,8 +16,8 @@ function Header() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="./calculator">calculator</Nav.Link>
-            {/* <Nav.Link href="#link">Link</Nav.Link> */}
+             <Link to={'/'} style={{textDecoration:'none',color:'black',marginRight:'20px'}}>Home</Link>
+            <Link to={'/calculator'} style={{textDecoration:'none',color:'black'}}>calculate</Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
